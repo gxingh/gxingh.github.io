@@ -1,3 +1,77 @@
-html, body{
+html,
+body {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #f9fbfc;
+  min-height: 100vh;
+  margin: 0px auto;
+  font-family: "Source Sans Pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial;
+  background-color: #f6f5ed;
+  color: #484848;
+  width: 580px;
+  font-size: 18px;
+  line-height: 26px;
+}
 
+.body-wrapper {}
+
+.section {}
+
+.profile-section {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+.profile-section h1{
+  margin: 0;
+  margin-bottom: 5px;
+}
+.social-links{
+  display: flex;
+  margin-top:5px;
+}
+.social-link{
+  background-repeat: no-repeat;
+  background-size: 27px;
+  height: 27px;;
+  width: 27px;;
+  border-radius: 100px;
+  margin-right: 10px;
+}
+.github{
+  background-image: url('/assets/github-icon.svg');
+
+}
+.codepen{
+  background-image: url('/assets/codepen-icon.svg');
+}
+.behance{
+  background-image: url('/assets/behance-icon.svg');
+}
+.dribbble{
+  background-image: url('/assets/dribbble-icon.svg');
+}
+
+.profile-photo {
+  background-image: url('/assets/profile-photo.jpg');
+  background-repeat: no-repeat;
+  background-size: 100px;
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  margin-right: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 425px) {
+  .body-wrapper {
+    width: 90%;
+  }
 }
